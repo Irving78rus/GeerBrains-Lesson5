@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 52px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#digits {
+    width: 50px;
+    height: 400px;
+}
+
+#board_digits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#letters {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #111;
+}
+
+.ch-item {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.ch-black {
+    background: #111;
+}
+
+.sqb {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqw {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.sqwk-b {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/knight48.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwk-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/knight48.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwd-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/queen48.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwki-b {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/king26.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwki-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/knight48.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqws-b {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/package.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqws-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/package.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwp-b {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/pawn128.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwp-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/pawn128.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwl-b {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/rook26.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwl-w {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/rook26.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwp-ww {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/p-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwp-wb {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/p-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwl-ww {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/l-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwl-wb {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/l-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqws-wb {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/s-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqws-ww {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/s-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwk-ww {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/k-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.sqwk-wb {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/k-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwking-wb {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/king-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(192, 191, 191);
+}
+
+.sqwquen-ww {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/quen-w.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
